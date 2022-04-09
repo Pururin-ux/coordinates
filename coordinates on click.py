@@ -20,5 +20,5 @@ def on_mouse_press(x, y, button, modifiers):
 def on_draw():
     window.clear()
     batch.draw()
-
 pyglet.app.run()
+print("Hello world")
